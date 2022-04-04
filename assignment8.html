@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation bar</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .main {
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+    }
+
+    nav {
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        border-bottom: 2px solid skyblue;
+    }
+
+    nav ul {
+        float: right;
+        margin-right: 30px;
+        padding-bottom: 5px;
+    }
+
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        line-height: -12px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        padding: 0px 22px;
+        padding-bottom: 14px;
+    }
+
+    .geek {
+        margin-top: 0px;
+        padding-top: 1px;
+        color: rgb(80, 196, 80);
+    }
+
+    .geek2 {
+        padding-left: 590px;
+        color: rgb(63, 211, 63);
+        padding-bottom: 6px;
+    }
+
+    .main2 {
+        height: 500px;
+        width: 550px;
+        border: 1px solid silver;
+        padding: 3px;
+        padding-bottom: 0px;
+        padding: 0px 22px;
+        text-size-adjust: 2;
+
+        margin-left: 400px;
+    }
+    .btn{
+        padding:5px;
+        border-radius: 5px;
+        background-color: green;
+        margin-left: 200px;
+    }
+    .bt{
+        margin-left: 600px;
+        padding: 5px;
+        background-color: rgb(86, 209, 86);
+        margin-top: 2px;
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <nav class="nav1">
+            <h1 class="geek">Geekster</h1>
+
+            <ul>
+                <li> <a href="#">homme</a></li>
+                <li> <a href="#">about</a></li>
+                <li><a href="#">cursor</a></li>
+                <li><a href="#">contact</a></li>
+
+
+            </ul>
+            <bottom class="bt">apply now</bottom>
+        </nav>
+        <h2 class=" geek2">applicatuion form</h2>
+        <div class="main2">
+            <h3>first name</h3>
+            <label for="name" id="name">
+                <input type="text" id="name" placeholder="enter your  first name">
+            </label>
+            <br> <br>
+            <h3>last name</h3>
+            <label for="name" id="name">
+                <input type="text" id="name" placeholder="enter your last name">
+            </label> <br>
+            <br>
+            <h3>email</h3>
+            <label for="name" id="name">
+                <input type="text" id="email" placeholder="enter your email address">
+            </label>
+
+            <label for="course"> Choose a course:</label>
+            <select name="course" id="course">
+                <optgroup label="course">
+                    <option value="volvo">sql</option>
+                    <option value="saab">.net</option>
+                </optgroup>
+                <optgroup label="course">
+                    <option value="mercedes">html</option>
+                    <option value="audi">javascript</option>
+                </optgroup>
+            </select><br>
+            <br>
+
+            <h3>phoone</h3>
+            <label for="name" id="name">
+                <input type="text " id="number" placeholder="enter your phone number">
+
+            </label>
+            <br><br <label for="dgree"> Choose your highest degree:</label>
+
+            <select name="dgree" id="degree">
+                <optgroup label="degree">
+                    <option value="volvo">mtech</option>
+                    <option value="saab">btech</option>
+                </optgroup>
+                <optgroup label="course">
+                    <option value="mercedes">mba</option>
+                    <option value="audi">mca</option>
+                </optgroup>
+            </select>
+
+
+            <label for="year"> year of completation:</label>
+
+
+            <select name="year" id="year">
+                <optgroup label="degree">
+                    <option value="volvo">2020</option>
+                    <option value="saab">2019</option>
+                </optgroup>
+                <optgroup label="course">
+                    <option value="mercedes">2018</option>
+                    <option value="audi">2021</option>
+                </optgroup>
+            </select>
+            <br> <br>
+            
+            <label for="click" id="click"></label>
+            <input type="checkbox" id="check"><p>By signing up you agree to the terms and condition(quantumbit tecchnologies pvt ltd)</p>
+           <br> <br>
+            <button class="btn">create account</button>
+
+
+        </div>
+</body>
+
+</html>
